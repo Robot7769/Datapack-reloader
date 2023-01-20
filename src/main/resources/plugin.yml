@@ -1,0 +1,15 @@
+name: Datapack_reload
+version: '${project.version}'
+main: io.github.robot7769.datapack_reload.Reloader
+api-version: 1.19
+authors: [ Robot7769 ]
+description: Datapack reloder witch out server restart
+commands:
+  datapackreload:
+    description: Reload datapack
+    usage: /<command>
+    aliases: datareload
+    permission: datapackreload
+    permission-message: Nemáš právo použit příkaz datapackreload.
+    cooldown: 5
+
